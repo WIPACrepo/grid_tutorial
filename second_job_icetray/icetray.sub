@@ -1,0 +1,15 @@
+#####################
+# second_job_icetray
+#####################
+
+executable = icetray-start_script.py
+arguments = -i $(file) -o /data/user/hskarlupka/grid/$(Cluster)_$(Process)_$Fnx(file)
+log = job.log
+output = job.$(Cluster).out
+error = job.$(Cluster).err
+request_cpus = 1
+request_memory = 1GB
+request_disk = 2GB
+Requirements = HAS_CVMFS_icecube_opensciencegrid_org
+use_x509userproxy=true
+queue file from job_files.txt
