@@ -1,0 +1,8 @@
+JOB job1 job.sub
+VARS job1 Seconds="100"
+JOB job2 job.sub
+VARS job2 Seconds="200"
+JOB job3 job.sub
+VARS job3 Seconds="15"
+JOB job4 job.sub
+VARS job4 Seconds="20"
