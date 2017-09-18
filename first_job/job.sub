@@ -1,3 +1,6 @@
+############
+# first_job
+############
 executable = job.sh
 arguments = 10
 log = job.log
@@ -6,5 +9,9 @@ error = job.err
 request_cpus = 1
 request_memory = 100MB
 request_disk = 1GB
+
+# HAS_CVMFS_icecube_opensciencegrid_org is an important requirement to ensure
+# IceCube software is accessible from the grid compute node.
 Requirements = HAS_CVMFS_icecube_opensciencegrid_org
+
 queue 1
