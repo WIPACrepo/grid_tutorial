@@ -6,3 +6,5 @@ JOB job3 job.sub
 VARS job3 Seconds="15"
 JOB job4 job.sub
 VARS job4 Seconds="20"
+# Dagman Configuration File
+CONFIG dagman.config
