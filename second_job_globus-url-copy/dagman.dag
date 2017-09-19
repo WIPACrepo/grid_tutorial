@@ -1,0 +1,11 @@
+VARS ALL_NODES INPUT_DIR="/data/sim/IceCube/2012/filtered/level2/CORSIKA-in-ice/11926/00000-00999" OUTPUT_DIR="/data/user/hskarlupka/grid"
+JOB job1 job.sub
+VARS job1 FILE_NAME="Level2_IC86.2012_corsika.011926.000000.i3.bz2"
+JOB job2 job.sub
+VARS job2 FILE_NAME="Level2_IC86.2012_corsika.011926.000001.i3.bz2"
+JOB job3 job.sub
+VARS job3 FILE_NAME="Level2_IC86.2012_corsika.011926.000002.i3.bz2"
+JOB job4 job.sub
+VARS job1 FILE_NAME="Level2_IC86.2012_corsika.011926.000003.i3.bz2"
+# Dagman Configuration File
+CONFIG dagman.config
