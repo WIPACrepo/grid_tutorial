@@ -14,3 +14,6 @@ globus-url-copy gsiftp://gridftp.icecube.wisc.edu/${INPUT_DIR}/${FILE_NAME} ./
 ##############################
 
 globus-url-copy ./${FILE_NAME}.md5 gsiftp://gridftp.icecube.wisc.edu/${OUTPUT_DIR}/${FILE_NAME}.md5
+
+rm -f ${FILE_NAME}
+rm -f ${FILE_NAME}.md5
