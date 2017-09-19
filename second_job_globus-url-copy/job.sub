@@ -14,4 +14,6 @@ request_disk = 1GB
 # IceCube software is accessible from the grid compute node.
 Requirements = HAS_CVMFS_icecube_opensciencegrid_org
 
+use_x509userproxy = true
+
 queue
